@@ -20,3 +20,8 @@
     font-family: 'fram';
     src: url("../fonts/framd/framd.otf");
 }
+
+@font-face{
+    font-family: 'Lexend-Regular';
+    src:url("../fonts/Lexend/static/Lexend-Regular.ttf")
+}

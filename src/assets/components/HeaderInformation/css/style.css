@@ -1,16 +1,85 @@
 /* Стили информации "Шапки" */
 .header-information {
-    width: 100%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 40px;
+    border: 3px solid #478BF9;
 }
 
-.header-information h1 {
-    font-size: 30px;
-    font-weight: bold;
+.header-information_menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 13px;
+    color: #fff;
+    font-size: 16px;
 }
 
-.header-information img {
-    height: 100px;
+.header-information_menu a {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.header-information_menu a:visited {
+    color: #fff;
+}
+
+.header-information_language {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.header-information_language a {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    transition: .5s all;
+}
+
+.header-information_language a:hover {
+    cursor: pointer;
+}
+
+.header-information_language a:nth-child(1) {
+    color: #fff;
+    border: 1px solid #9DADF2;
+}
+
+.header-information_language a:nth-child(1) span {
+    display: block;
+    margin-left: 5px;
+}
+
+.header-information_language a:nth-child(1):visited {
+    color: #fff;
+}
+
+.header-information_language a:nth-child(2) {
+    color: #fff;
+    border: 1px solid #9DADF2;
+}
+
+.header-information_language a:nth-child(2):visited {
+    color: #fff;
+    border: 1px solid #9DADF2;
+}
+
+.header-information_language a:nth-child(3) {
+    color: #fff;
+    background: #478BF9;
+}
+
+.header-information_language a:nth-child(3):visited {
+    color: #fff;
+    background: #478BF9;
 }
